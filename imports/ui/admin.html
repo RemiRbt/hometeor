@@ -1,0 +1,25 @@
+<template name="admin">
+  <div id="admin" class="d-flex flex-column justify-content-around align-items-center">
+    <div>
+      <h3>All Options:</h3>
+      <table class="table table-dark table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">ID</th>
+            <th scope="col">Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{#each options}}
+          <tr>
+            <td>{{ @index }}</td>
+            <td>{{ id }}</td>
+            <td>{{ value }}</td>
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</template>

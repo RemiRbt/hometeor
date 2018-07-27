@@ -1,0 +1,61 @@
+/* body {
+  padding-top: 54px;
+} */
+
+#chose {
+ /* height: calc(100vh - 54px); */
+  height: 100vh;
+  background: #212529;
+}
+
+#chose > * {
+  width: 80%;
+}
+
+#chose button {
+  font-size: 5em;
+}
+
+@media (min-width: 992px) {
+  /* body {
+    padding-top: 56px;
+  } */
+  #chose {
+    /* height: calc(100vh - 56px); */
+    height: 100vh; 
+  }
+}
+
+#pageScreensaver, #pageBus, #admin {
+  background: #212529;
+  height: 100vh;
+  color: #f8f9fa;
+}
+
+#pageScreensaver h1 {
+  font-size: 10em;
+}
+#pageScreensaver h2 {
+  font-size: 5em;
+}
+#pageScreensaver h3 {
+  font-size: 4em;
+}
+
+#pageBus {
+  text-align: center;
+}
+
+#pageBus h2 {
+  padding: 50px;
+}
+
+#pageBus h4 {
+  padding: 20px;
+}
+
+#pageBus b {
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+}
