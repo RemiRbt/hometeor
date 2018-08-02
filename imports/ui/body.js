@@ -24,7 +24,8 @@ import './admin.js';
 import './chose.js';
 import './page.js';
 import './pageBus.js';
-import './pageScreensaver';
+import './pageScreensaver.js';
+import './pageYoutube.js';
 
 
 moment.locale('fr');

@@ -26,9 +26,9 @@
   }
 }
 
-#pageScreensaver, #pageBus, #admin {
+#pageScreensaver, #pageBus, #admin, #pageYoutube {
   background: #212529;
-  height: 100vh;
+  min-height: 100vh;
   color: #f8f9fa;
 }
 
@@ -58,4 +58,26 @@
   width: 20px;
   height: 20px;
   padding: 5px;
+}
+
+#pageYoutube .feed-item {
+  width: 25%;
+  overflow: hidden;
+  padding: 25px;
+  position: relative;
+  height: 250px;
+}
+
+#pageYoutube .feed-item img {
+  -webkit-filter: grayscale(25%) blur(1px);
+  filter: grayscale(25%) blur(1px);
+  z-index: 50;
+}
+
+#pageYoutube .feed-item h3 {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  text-shadow: 2px 2px 2px #212529, -2px 2px 2px #212529;
+  z-index: 100;
 }
